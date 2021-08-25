@@ -1,0 +1,64 @@
+.banner{
+    width: 100%;
+    height: 500px;
+    /* background-color: pink; */
+    object-fit: contain;
+    box-shadow: inset 0px 2px 2px rgba(0,0,0,0.5),2px 4px 8px rgba(0,0,0,0.4),4px 8px 10px rgba(0,0,0,0.3);
+}
+.bannercontent{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    /* background-color: pink; */
+    width: 500px;
+    /* transition: all 2s ease-in; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.bannercontent h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.bannercontent h4{
+    font-weight: 500;
+    font-size: 20px;
+}
+.bannerbuttons{
+    display: flex;
+}
+.bannerbuttons button{
+    margin: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bannerbuttons .play{
+    background-color: white;
+    color: black;
+}
+.bannerbuttons .info{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+@media(max-width:700px)
+{
+    .bannercontent{
+        /* background-color: pink; */
+        /* position: absolute; */
+        top: 150px;
+        left: 50px;
+        width: 300px;
+
+    }
+
+}

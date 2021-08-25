@@ -1,0 +1,115 @@
+.lognavss{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    padding:10px 20px;
+    z-index: 1;
+}
+#imgs{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+#netflixlogos{
+    width: 200px;
+    height: 100px;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.main1 h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+#imgs2{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.sidebox{
+    width:500px;
+    color: white;
+
+}
+.sidebox div{
+    position: relative;
+    width: 100%;
+}
+.sidebox .email{
+    background-color:#878787;
+    color: white;
+    padding:10px 20px;
+}
+.bigdiv{
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebox .Signout{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 25px;
+}
+.subscribe h4{
+    font-size: 18px;
+}
+.subscribe p{
+    font-size: 15px;
+}
+
+.sidebox button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+}
+@media(max-width:700px)
+{
+    .sidebox{
+        width: 300px;
+        /* background-color: pink; */
+    }
+    .sidebox .Signout{
+        width: 300px;
+    }
+    .subscribe{
+        padding: 10px 0px 10px 20px;
+    }
+    .main1 h2{
+        font-size: 30px;
+    }
+    .main1{
+        top: 150px;
+    }
+    #imgs2{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    /* .h .btn{
+       margin-right:20px;
+    } */
+}
+
+
